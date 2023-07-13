@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    background-color: black;
+}
+
+.teclas {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    margin-top: 50px;
+    margin-left: 40%;
+    background-color: white;
+    /* border: red 1px solid; */
+    width: 50vh;
+    height: 90vh;
+}
+
+input {
+    text-align: end;
+    font-size: 50px;
+    color: white;
+    border: transparent;
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    color: white;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cero {
+    color: white;
+    width: 20%;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Ce {
+    color: rgb(49, 49, 49);
+    background-color: rgb(205, 205, 205);
+}
+
+.masomenos {
+    color: rgb(49, 49, 49);
+    background-color: rgb(205, 205, 205);
+}
+
+.porcentaje {
+    color: rgb(49, 49, 49);
+    background-color: rgb(205, 205, 205);
+}
+
+.division {
+    color: white;
+    background-color: #ff9501;
+}
+
+.equis{
+    color: white;
+    background-color: #ff9501;
+}
+
+.menos {
+    color: white;
+    background-color: #ff9501;
+}
+
+.mas {
+    color: white;
+    background-color: #ff9501;
+}
+
+.igual {
+    color: white;
+    background-color: #ff9501;
+}
+
+.cuadrado {
+    background-color: #ff9501;
+}
+
+.cubo {
+    background-color: #ff9501;
+}
+
+.PI {
+    background-color: #ff9501;
+}
+
+.raiz {
+    background-color: #ff9501;
+}
+
+.mc {
+    background-color: #ff9501;
+}
+
+.m+ {
+    background-color: #ff9501;
+}
+
+.m- {
+    background-color: #ff9501;
+}
+
+.m {
+    background-color: #ff9501;
+
+}
+
+.mplus {
+    background-color: #ff9501;
+}
+
+.result{
+    text-align: end;
+    font-size: 50px;
+    color: white;
+    border: transparent;
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+}
